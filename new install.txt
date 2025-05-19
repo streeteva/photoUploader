@@ -1,0 +1,5 @@
+npm install axios
+npm install jsonwebtoken
+npm install bcrypt
+npm install dotenv
+npm install better-sqlite3

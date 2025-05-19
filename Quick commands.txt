@@ -1,0 +1,10 @@
+1.	Start the App
+	cd C:\Users\shis\Desktop\PhotoUploader
+	npx expo start
+
+2.	Start the Node.js server In CMD Terminal 1: 
+	cd C:\Users\shis\Desktop\photo server
+	node server.js
+
+3.	In Terminal 2 (after the server is running): Expose port 3000 using ngrok:
+	ngrok http 3000     
