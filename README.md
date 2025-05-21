@@ -62,22 +62,3 @@ react-native-image-picker for image selection
 
 react-native-progress for displaying upload progress
 
-📂 Project Structure
-
-pgsql
-Copy
-Edit
-photoupload/
-├── android/
-├── ios/
-├── src/
-│   ├── components/
-│   ├── screens/
-│   ├── services/
-│   └── utils/
-├── server/
-│   ├── uploads/
-│   └── index.js
-├── App.js
-├── package.json
-└── README.md
