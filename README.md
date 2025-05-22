@@ -1,64 +1,53 @@
-📸 PhotoUpload
+# 📷 Photo Upload App
+
 PhotoUpload is a React Native application that enables users to capture or select photos, assign labels, and upload them to a server with real-time progress feedback. It's designed to provide a seamless and efficient image uploading experience.
 
+---
+
+## 🚀 Features
+
+- 📷 Capture photos using the device camera
+- 🖼️ Select images from the device gallery
+- 🏷️ Assign labels to images before uploading
+- 📤 Upload images to a server with real-time progress indication
+- 🔒 Secure image storage with unique filenames
+- 📊 View upload history with timestamps and labels
 
 
-🚀 Features
-📷 Capture photos using the device camera
+## ⚙️ Setup Instructions
 
-🖼️ Select images from the device gallery
+1. Clone the repository
 
-🏷️ Assign labels to images before uploading
+   git clone https://github.com/your-username/photoupload.git
+   cd photoupload
 
-📤 Upload images to a server with real-time progress indication
+2. Install dependencies
 
-🔒 Secure image storage with unique filenames
+   npm install
 
-📊 View upload history with timestamps and labels
+3. Start the development server:
+   npx expo start
 
+4. Run the app:
+  For Android:
+  npx react-native run-android
+  For iOS:
+  npx react-native run-ios
 
+## 📸 Usage
 
-🛠️ Installation
+- Launch the app on your device or emulator.
+- Capture or select a photo using the provided options.
+- Assign labels to the image as prompted.
+- Initiate the upload, and monitor the progress through the displayed indicator.
+- View upload history to see previously uploaded images along with their labels and timestamps.
 
-Clone the repository:
-git clone https://github.com/yourusername/photoupload.git
-cd photoupload
+## 🧰 Technologies Used
 
-Install dependencies:
-npm install
-
-Start the development server:
-npm start
-
-Run the app:
-For Android:
-npx react-native run-android
-For iOS:
-npx react-native run-ios
-
-📸 Usage
-
-Launch the app on your device or emulator.
-
-Capture or select a photo using the provided options.
-
-Assign labels to the image as prompted.
-
-Initiate the upload, and monitor the progress through the displayed indicator.
-
-View upload history to see previously uploaded images along with their labels and timestamps.
-
-🧰 Technologies Used
-
-React Native
-
-Multer for handling file uploads on the server
-
-Express.js for the backend server
-
-SQLite for local data storage
-
-react-native-image-picker for image selection
-
-react-native-progress for displaying upload progress
+- React Native
+- Multer for handling file uploads on the server
+- Express.js for the backend server
+- SQLite for local data storage
+- react-native-image-picker for image selection
+- react-native-progress for displaying upload progress
 
