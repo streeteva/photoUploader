@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, SafeAreaView, StyleSheet } from 'react-native';
 import RegisterScreen from './screens/RegisterScreen';
 import UploadScreen from './screens/UploadScreen';
-
+// comment to test push
 export default function App() {
   const [userId, setUserId] = useState(null);
 
